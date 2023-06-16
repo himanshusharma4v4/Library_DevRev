@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Library Managment System | Login</title>
+    <link rel="icon" href="IMG/favicon_icon.png" type="image/png" sizes="16x16">
+    <!-- For Using Styled Icons in Page -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!-- Local Styling File -->
+    <link rel="stylesheet" href="login1.css" type="text/css">
+    <link rel="stylesheet" href="footer1.css">
+    <!-- JS for Login  -->
+    <script src="JS/mainStyle.js" defer></script>
+</head>
+
+<body>
+    <div class="HeadSection" style="background-color: #3388bd; color: black;">
+        <img src="IMG/MainPageResource/devrev.png" alt="Library Logo" width="220px" height="80px">
+        <h1>Welcome to Online Library Managment System</h1>
+    </div>
+    <div class="navContainer" style="background-color: #29293d;">
+        <ul>
+            <li><a href="termscond.html">Terms and Condition</a></li>
+            <li><a href="PrivPolicy.html">Privacy Policy</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </div>
+    <div class="imgVisualContainer">
+        <button id="previmg" onclick="PrevImg()"><i class="fas fa-chevron-circle-left"></i></i></button>
+        <div class="imgVisual">
+            <img id="PicDisp" src="IMG/MainPageResource/lib1.jpg" alt="Library Pictures" height="650px" width="900px">
+        </div>
+        <button id="nextimg" onclick="NextImg()"><i class="fas fa-chevron-circle-right"></i></button>
+    </div>
+    <div class="LogCntainer">
+
+        <div id="themeL" class="quote">
+            <h1>Quote</h1>
+            <h2>"The library is inhabited by spirits <br> that come out of the pages at night"</h2>
+        </div>
+
+        <div id="themeD" class="log">
+            <h1>Select Type below:</h1>
+            <div class="btnContainer">
+
+                <a class="myButton" href="Admin/index.php">Admin</a><br>
+                <a class="myButton" href="Student/index.php">Student</a>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="site-footer" style="background-color: #1f1f2e;">
+    <div class="container">
+        <div class="abt">
+            <h2>About</h2><br>
+            <hr><br>
+            <p class="ft">Library Management System is a Web Application that is used to manage and store the details of
+                books and the users. In
+                this Web Application, we have two types of users, admin, and students. Students can register and log in.
+                After
+                successful login, a student can see all the available books in the library. Students can also search
+                books by their name
+                and category. <a href="about.html">Read More</a></p>
+        </div>
+
+        <div class="linking">
+            <h2>Quick Links</h2><br>
+            <hr><br>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="PrivPolicy.html">Privacy Policy</a></li>
+                <li><a href="termscond.html">Terms And Conditions</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <hr><br>
+    <div class="cc">
+        <h4>All Rights Reserved | Copyright <span>&copy</span> </h4>
+    </div><br>
+    <hr>
+</footer>
+
+</html>
