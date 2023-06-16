@@ -2,7 +2,7 @@
 ABSTRACT:
 The main objective of Online Library Management System is developing a computerized system to maintain all the daily work of the library. It has two sides –
 User side (student / teacher).
- Admin side.
+Admin side.
 
 
 I have created the library management system which is a website that allows registered users to access library resources. Registered users can log in to their account and see their personal information, search for books, order books, and see the issue and return dates for the books they have borrowed. An automatic timer will show how much time is left until the return date. If a user needs more time to return a book, they can send a message to the admin. There is also a public comment section where registered users can comment on their suggestions and ask questions.
