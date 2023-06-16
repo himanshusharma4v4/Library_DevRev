@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #effcef;
+}
+.HeadSection {
+    font-family: 'Cinzel', serif;
+    font-size: large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    width: inherit;
+    height: 130px;
+}
+
+.HeadSection>img {
+    width: 200px;
+    height: 170px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.HeadSection>h1 {
+    margin-left: 5rem;
+}
+
+.navContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    text-align: right;
+    height: 55px;
+    background-color: #393e46;
+}
+
+.navContainer>ul {
+    list-style-type: none;
+    padding-right: 3.5rem;
+}
+
+.navContainer>ul>li {
+    float: right;
+    height: inherit;
+}
+
+.navContainer>ul>li>a {
+    outline: none;
+    color: white;
+    height: inherit;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navContainer>ul>li>a:hover {
+    color: black;
+    height: inherit;
+    background-color: #94d3ac;
+}
+
+.imgVisualContainer {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.imgVisualContainer>button {
+    outline: none;
+    opacity: 45%;
+    font-size: 60px;
+    margin: 0 1.4rem 0;
+    background-color: transparent;
+    border-style: none;
+}
+
+.imgVisualContainer>button:hover {
+    opacity: 100%;
+}
+
+.imgVisual {
+    text-align: center;
+}
+
+.LogCntainer {
+    border-top: 3px solid #222831;
+    border-bottom: 3px solid #222831;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.quote>h1,
+.log>h1 {
+    text-decoration: underline;
+    padding: 3.5rem;
+}
+
+.quote {
+    text-align: center;
+    width: 50%;
+    background-color: white;
+}
+
+.log {
+    color: black;
+    text-align: center;
+    background-color: #94d3ac;
+    width: 50%;
+}
+
+.myButton {
+    outline: none;
+    background-color: #655c56;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    width: 260px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+.quoteS>h1,
+.logS>h1 {
+    text-decoration: underline;
+    padding: 3.5rem;
+}
+
+.quoteS {
+    text-align: center;
+    width: 50%;
+    background-color: #94d3ac;
+    color: black;
+}
+
+.logS {
+    color: black;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+}
+
+.footer>h2 {
+    padding-top: 2rem;
+}
+
+.btnContainer {
+    padding-bottom: 3rem;
+}
