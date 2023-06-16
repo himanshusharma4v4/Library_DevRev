@@ -6,9 +6,10 @@
 
 To deploy this project run
 
-Step 1: Install xampp Software.
+Step 1: Install xampp Software.                                   
 Step 2: Then you need to import the database which is available in DATABASE folder.            
-Step 3: Then create a database. Write the name "library1" like this. If you write a different name you need to change the connection.php code too because we've connected a database named library in our code.
+Step 3: Then create a database. Write the name "library1" like this. If you write a different name you need to change the connection.php code too because we've connected a database named library in our code.             
+Step 4: and you are good to go with Database Connectivity to Xampp.
 
 
 
