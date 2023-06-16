@@ -37,7 +37,7 @@ The admin can send notifications to students before their return dates, remindin
 The public comment section can be used by students to ask questions about the library or to suggest new books that they would like to see added to the collection. This can help the library to better meet the needs of its users.
 Overall, the web-based library management system is a valuable tool that can help students and library staff to maintain the library in the best way possible.
 
-BELOW IS THE ER-DIAGRAM WHICH SHOWS ALL THE ATTRIBUTES IF PROJECT:
+## BELOW IS THE ER-DIAGRAM WHICH SHOWS ALL THE ATTRIBUTES IF PROJECT:
 ![image](https://github.com/himanshusharma4v4/Library_DevRev/assets/72140769/2f7f303d-78f4-4a7e-b31a-818ef8a71da1)
 
 
